@@ -41,7 +41,6 @@ const App = () => {
     toggleModal();
   }
   const deleteHandler = e => {
-    console.dir(e.currentTarget.parentElement.id);
     setContacts(
       contacts.filter(
         contact => contact.id !== e.currentTarget.parentElement.id,
