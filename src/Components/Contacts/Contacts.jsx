@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import styles from './Contacts.module.css';
 import PropTypes from 'prop-types';
 // import iconSvg from './sprite.svg';
